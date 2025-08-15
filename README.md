@@ -1,2 +1,2 @@
 # gitprueba
-probando github
+esto es una prueba para el funcionamiento de github
