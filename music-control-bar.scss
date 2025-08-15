@@ -1,0 +1,57 @@
+/* Modulo del gneral del widget */
+.music-widget-bar {
+  min-width: 100px;
+  border-radius: 12px;
+  padding: 3px;
+  color: $foreground;
+  background-color: $background;
+}
+
+.musicbar-widget-bar {
+  margin: 0;
+  padding: 0;
+  min-height: 4px; // ajusta el grosor de la barra
+}
+
+/* Parte de la barra reproductora que falta llenar */
+.musicbar-widget-bar trough {
+  all: unset;
+  min-width: 300px;
+  min-height: 4px;
+  border-radius: 5px;
+  margin: 0 15px ;
+  padding: 0;
+  background-color: mix($background, $foreground, 80%);
+}
+
+/* Parte de la barra reproductora que se va llenado */
+.musicbar-widget-bar trough highlight {
+  min-height: 5px;
+  border-radius: 5px;
+  background-color: mix($color6, $foreground, 90%);
+}
+
+/* Portada del album */
+.song-cover-art-widget-bar {
+  min-width: 30px;
+  min-height: 25px;
+  border-radius: 4px;
+  margin: 6px;
+  background-size: cover;
+  background-position: center;
+  background-color: mix($background, $foreground, 70%);
+}
+
+/* Modulo de los textos y la barra */
+.parentbox-widget-bar {
+  min-width: 20px;
+}
+
+.music-text {
+  margin: 0;
+  padding: 0;
+  font-family: "Iosevka Nerd Font", "Noto Sans Mono CJK SC";
+  font-size: .9rem;
+}
+
+
